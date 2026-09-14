@@ -23,7 +23,7 @@ library(forcats)
 # Se foloseste fisierul inclus in repository si sheet-ul "Date_curat".
 
 date_tari <- read_excel(
-  "data/eurostat-tourism-data.xlsx",
+  "eurostat-tourism-data.xlsx",
   sheet = "Date_curat"
 )
 

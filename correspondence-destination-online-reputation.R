@@ -8,7 +8,7 @@ library(FactoMineR)
 library(factoextra)
 
 # 1. Importarea datelor
-date <- read_excel("data/anonymous-survey-responses.xlsx")
+date <- read_excel("anonymous-survey-responses.xlsx")
 
 # 2. Selectarea coloanelor pentru reputația online
 coloane_reputatie <- grep("^C8\\.", names(date), value = TRUE)

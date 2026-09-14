@@ -37,45 +37,33 @@ The public survey file contains no names, email addresses, or submission timesta
 
 ### European tourism trend
 
-![Median nights spent in European tourist accommodation, 2005–2024](images/europe-tourism-median-2005-2024.png)
+![Median nights spent in European tourist accommodation, 2005–2024](europe-tourism-median-2005-2024.png)
 
 ### Destination and perceived total cost
 
-![Correspondence analysis of destination and perceived total cost](images/ca-destination-cost.png)
+![Correspondence analysis of destination and perceived total cost](ca-destination-cost.png)
 
 ### Destination and online reputation
 
-![Correspondence analysis of destination and online reputation](images/ca-destination-online-reputation.png)
+![Correspondence analysis of destination and online reputation](ca-destination-online-reputation.png)
 
 ## Repository structure
 
-```text
-.
-├── data/
-│   ├── anonymous-survey-responses.xlsx
-│   └── eurostat-tourism-data.xlsx
-├── decision-analysis/
-│   └── electre-ii.xlsx
-├── images/
-├── scripts/
-├── requirements.R
-└── README.md
-```
+All project files are stored in the repository root for straightforward access. The repository includes the anonymised survey data, Eurostat tourism data, the ELECTRE II workbook, R analysis scripts, generated visualisations, package requirements, and this README.
 
 ## How to run
 
 1. Download or clone the repository.
 2. Open R or RStudio with the repository root as the working directory.
 3. Run `source("requirements.R")` once to install any missing packages.
-4. Run any script from the `scripts` folder, for example:
+4. Run any analysis script, for example:
 
 ```r
-source("scripts/correspondence-destination-cost.R")
+source("correspondence-destination-cost.R")
 ```
 
-Open `decision-analysis/electre-ii.xlsx` to inspect the multicriteria calculations and final ranking.
+Open `electre-ii.xlsx` to inspect the multicriteria calculations and final ranking.
 
 ## Academic context
 
 This project was completed for the BSc in Economic Cybernetics at the Bucharest University of Economic Studies. Generative AI was used for language review and support in clarifying parts of the R code; the analysis decisions, data processing, interpretation, and conclusions were reviewed by the author.
-

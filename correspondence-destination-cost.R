@@ -9,7 +9,7 @@ library(FactoMineR)
 library(factoextra)
 
 # 1. Importarea datelor
-date <- read_excel("data/anonymous-survey-responses.xlsx")
+date <- read_excel("anonymous-survey-responses.xlsx")
 
 # 2. Coloanele pentru costul total perceput
 cost_destinatii <- date[, c(

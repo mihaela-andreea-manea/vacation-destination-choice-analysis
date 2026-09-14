@@ -14,7 +14,7 @@ library(FactoMineR)
 library(factoextra)
 
 # 3. Importarea bazei de date
-date <- read_excel("data/anonymous-survey-responses.xlsx")
+date <- read_excel("anonymous-survey-responses.xlsx")
 
 # 4. Verificarea numelor coloanelor
 names(date)
